@@ -100,7 +100,7 @@ function makePurchase() {
                         console.log("----------------------------------------------------------------");
                         console.log(`Your transaction is complete. Your total for ${selectQuant} ${productName} is $${total}. Thank you for shopping at Bamazon!`);
                         console.log("----------------------------------------------------------------");
-                        setTimeout(showItems, 4000);
+                        setTimeout(showItems, 2000);
                     });
                 } else {
                     console.log("----------------------------------------------------------------");

@@ -39,7 +39,7 @@ function action() {
                     lowInventory();
                     break;
 
-                case 'Add to Inventory':
+                case 'Add to Existing Inventory':
                     addTo();
                     break;
 
