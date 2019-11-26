@@ -144,13 +144,6 @@ function addNew() {
             name: "inputDept",
             type: "input",
             message: "Type in the DEPARTMENT that it will belong to: ",
-            validate: function (value) {
-                if (isNaN(value) === false) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
         },
         {
             name: "inputPrice",
